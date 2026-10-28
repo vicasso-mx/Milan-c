@@ -1,0 +1,76 @@
+
+# MILAN C - C11 / CMake / Visual Studio / VS Code
+
+# CMake - directorios de compilacion
+/build/
+/build-*/
+/out/
+/cmake-build-*/
+
+# CMake - archivos generados
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+Testing/
+
+# Binarios y archivos objeto
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.pch
+*.ipch
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+
+# VS Code - configuracion local
+.vscode/*
+!.vscode/extensions.json
+
+# Clang y herramientas de analisis
+.cache/
+*.profraw
+*.profdata
+
+# Resultados de pruebas y cobertura
+coverage/
+*.gcda
+*.gcno
+*.gcov
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Archivos locales de entorno
+.env
+.env.*
+!.env.example
+  
